@@ -6,8 +6,6 @@ import useScanDetection from "use-scan-detection"
 export const Scanner = () => {
 
     const [ barcodeScan, setBarcodeScan ] = useState('')
-    const [loading, setLoading] = useState(true)
-    
 
     useScanDetection({
         onComplete: setBarcodeScan,
