@@ -27,25 +27,8 @@ export const Inicio = () => {
                     <Link className="bg-white" to="/products/menudencia">
                     <img alt="Promocion2" className="efecto rounded-lg shadow-[0px_12px_50px_2px_rgba(0,0,0,0.56)] max-sm:mt-[6px] mt-[15px]" src="./imgs/lamb3.jpg"/>
                     </Link>
-                    {/* <div className="w-10">
-                        <span className="absolute font-lobster py-2 px-8 left-20 text-red-600 border-[0.1px] border-gray-100 bg-white/10 shadow-xl rounded-lg drop-shadow-[0_1.8px_1.8px_rgba(0,0,0,0.8)] text-9xl top-[70px] justify-center items-center">
-                                M<span className="text-white text-6xl">enudencia</span>
-                                </span>
-                    </div> */}
                 </div>            
-                {/* <div className="mt-2 bg-slate-50 p-2 rounded-lg overflow-hidden shadow-lg">
-                    <div className="px-6 py-4">  
-                        <p className="hidden"></p>
-                        <div className="font-bold text-gray-700 text-xl mb-2">
-                            <h4></h4>
-                            <p className="text-gray-700 text-base">to </p>
-                            <p className="text-gray-700 text-base">be </p>
-                            <p className="text-gray-700 hidden text-base"></p>
-                            <p className="text-gray-700 hidden text-base"></p>
-                            <p className="text-gray-700 text-base">contine :)</p>
-                        </div>
-                    </div>
-                </div>      */}
+                
             </div>
         </div>
     )
