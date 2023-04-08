@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 import Banner from "../Banner/Banner.js"
 import './Inicio.scss'
 
-
 export const Inicio = () => {
 
     return (
@@ -14,18 +13,19 @@ export const Inicio = () => {
             </div>
             <div className="max-sm:w-[350px] overflow-x-hidden max-w-[900px] items-center mx-auto">
                 <hr className="mt-2"/>
-                <div className="">
-                    <img alt="pizarra-info" className="rounded-lg max-sm:mt-[8px] mt-[15px]" src="./imgs/pizarra.jpg"/>
-                </div>
+                <div className="bg-white rounded-lg">
+                    <Link className="bg-white" to="/itemListContainer">
+                        <img alt="Lista de productos" className="efecto rounded-lg shadow-[0px_12px_50px_2px_rgba(0,0,0,0.56)] max-sm:mt-[6px] mt-[15px]" src="./imgs/pizarra.jpg"/>
+                    </Link>                </div>
                 <div className="bg-white rounded-lg">
                     <Link to="/products/corte">
-                    <img alt="Promocion1" className="efecto rounded-lg shadow-[0px_12px_50px_2px_rgba(0,0,0,0.56)] max-sm:mt-[6px] mt-[15px]" src="./imgs/lamb2.jpg"/>
+                        <img alt="Promocion1" className="efecto rounded-lg shadow-[0px_12px_50px_2px_rgba(0,0,0,0.56)] max-sm:mt-[6px] mt-[15px]" src="./imgs/lamb2.jpg"/>
                     </Link>
                     
                 </div>
                 <div className="bg-white rounded-lg mb-20">
                     <Link className="bg-white" to="/products/menudencia">
-                    <img alt="Promocion2" className="efecto rounded-lg shadow-[0px_12px_50px_2px_rgba(0,0,0,0.56)] max-sm:mt-[6px] mt-[15px]" src="./imgs/lamb3.jpg"/>
+                        <img alt="Promocion2" className="efecto rounded-lg shadow-[0px_12px_50px_2px_rgba(0,0,0,0.56)] max-sm:mt-[6px] mt-[15px]" src="./imgs/lamb3.jpg"/>
                     </Link>
                 </div>            
                 

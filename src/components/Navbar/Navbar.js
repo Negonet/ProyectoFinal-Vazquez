@@ -69,7 +69,7 @@ const Navbar = () => {
             <div className="mx-auto m-1 content-center text-center">
                 <p className="flex justify-center text-gray-100 font-mono">Sesion {user.email} <button onClick={logout} className="bg-slate-200 text-black hover:bg-gray-800 hover:text-gray-200 duration-500 px-2 rounded-md text-lg ml-5"><AiOutlineExport/></button> </p>
             </div>
-            <div className={nav ? "fixed md:hidden z-10 left-4 top-15 w-[60%] text-sm text-white font bg-black" : "fixed left-[-100%] ease-in duration-500" }>
+            <div className={nav ? "fixed md:hidden z-10 right-4 top-15 w-[60%] text-sm text-white font bg-black" : "fixed right-[-100%] ease-in duration-500" }>
                 <ul onClick={handleHideNav} className="p-4"><li className="p-5 border-b border-[#726c6c] hover:bg-[#262626] ease-in-out duration-500 hover:text-base"><Link to="/">Inicio</Link></li>
                     <li className="efecto p-5 border-b border-[#a89f9f] hover:bg-[#262626] ease-in-out duration-500 hover:text-base"><Link to="/Scanner">Escanear</Link></li>
                     <li className="efecto p-5 border-b border-[#dbcfcf] hover:bg-[#262626] ease-in-out duration-500 hover:text-base"><Link to="/ItemListContainer">Productos</Link></li>
