@@ -16,7 +16,8 @@ export const Inicio = () => {
                 <div className="bg-white rounded-lg">
                     <Link className="bg-white" to="/itemListContainer">
                         <img alt="Lista de productos" className="efecto rounded-lg shadow-[0px_12px_50px_2px_rgba(0,0,0,0.56)] max-sm:mt-[6px] mt-[15px]" src="./imgs/pizarra.jpg"/>
-                    </Link>                </div>
+                    </Link>                
+                </div>
                 <div className="bg-white rounded-lg">
                     <Link to="/products/corte">
                         <img alt="Promocion1" className="efecto rounded-lg shadow-[0px_12px_50px_2px_rgba(0,0,0,0.56)] max-sm:mt-[6px] mt-[15px]" src="./imgs/lamb2.jpg"/>
