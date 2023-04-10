@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom"
-import Contador from "../Contador/Contador"
+import Contador from "../ItemCount/ItemCount"
 import { useContext, useState } from "react"
 import { CartContext } from "../context/CartContex"
 import Swal from "sweetalert2"
